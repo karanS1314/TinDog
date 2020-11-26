@@ -1,0 +1,168 @@
+#title {
+  background-color: #ff4c68;
+  text-align: left;
+}
+
+
+
+/* Navbar style */
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.75rem;
+  font-weight: bold;
+}
+.nav-item {
+  padding: 0 1.5rem 0 1.5rem;
+  font-size: 1.1rem;
+}
+.navbar {
+  padding-left: 0;
+  padding-right: 0;
+  padding-bottom: 4.5rem;
+}
+
+/* title */
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  color: #fff;
+  line-height: 1.5;
+  font-size: 2.75rem;
+  padding-bottom: 1.5rem;
+}
+.container-fluid {
+  padding: 3% 12% 5% 12%;
+}
+.container-fluid-title {
+  padding: 3% 12% 5% 19%;
+}
+.iphone-img {
+  margin-top: 10%;
+  margin-left: 8%;
+  transform: rotate(25deg);
+  position: relative;
+}
+.buton {
+  margin: 0 0.4rem;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+a:hover {
+  color: #ff4c68;
+  text-decoration: none;
+}
+@media (max-width:800px) {
+  #title {
+    text-align: center;
+  }
+}
+@media (max-width: 1300px) and (min-width: 991px) {
+  .iphone-img {
+    margin-left: 25%;
+    margin-top: 20%;
+    width: 80%;
+  }
+  .container-fluid-title {
+    padding: 3% 12% 14% 19%;
+  }
+
+}
+@media (min-width: 1250px) {
+  .iphone-img {
+    padding-right: 5%;
+    width: 80%;
+  }
+}
+
+/* features*/
+#features {
+  background-color: white;
+  position: relative;
+  z-index: 1;
+  margin-top: -150px;
+}
+.quality {
+  padding:0 3rem;
+  text-align: center;
+}
+.sign-img {
+  color: #ef8172;
+}
+h3 {
+  padding: 1rem 0 0;
+  font-family: 'Montserrat', sans-serif;
+}
+p {
+  color: #8f8f8f;
+}
+
+
+/* testimonial */
+#testimonials{
+  background-color: #ef8172;
+  text-align: center;
+}
+
+.test-h2 {
+  padding: 3rem 5rem;
+  font-size: 2rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: lighter;
+  line-height: 1.75;
+  color: white;
+}
+.dog-loc {
+  color: #fff;
+}
+.test-img {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+/* Press */
+#press {
+  background-color: #ef8172;
+}
+.press-img {
+  width: 20%;
+  margin: 0 2%;
+}
+
+/* pricing */
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+.price-col {
+  padding: 3% 2%;
+}
+.pricing-h2 {
+  font-size: 2rem;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* cta */
+#cta {
+  background-color: #ff4c68;
+  text-align: center;
+  padding-bottom: 5%;
+  padding-top: 5%;
+}
+.cta-btn {
+  margin: 2.5% 0;
+}
+.btn-white {
+  color: black;
+}
+.social-icon {
+  text-align: center;
+}
+.si {
+  padding: 1rem 0.5rem 0.5rem;
+}
+
+/* footer */
+#footer {
+  margin-top: 5%;
+}
